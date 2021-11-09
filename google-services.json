@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1024382515434",
+    "project_id": "test-bitel",
+    "storage_bucket": "test-bitel.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1024382515434:android:b05e62e0f7503b28ab7f93",
+        "android_client_info": {
+          "package_name": "com.vtp.VideoPlay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1024382515434-682nnk1qdovqq8fd6p7o6058e20pb75v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAI2l8xR5ug0WmQ9BSwjJ1NzRa-u10MxaM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1024382515434-682nnk1qdovqq8fd6p7o6058e20pb75v.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1024382515434-p4toergimfht131jojjo5lmapaaqkjq8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.vtp.VideoPlay"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

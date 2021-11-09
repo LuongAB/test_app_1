@@ -1,0 +1,43 @@
+{
+	"expo": {
+		"name": "Dengue Alert",
+		"slug": "dengue-alert",
+		"privacy": "public",
+		"version": "1.0.0",
+		"orientation": "portrait",
+		"icon": "./assets/logo.png",
+		"splash": {
+			"image": "./assets/splash.png",
+			"resizeMode": "cover",
+			"backgroundColor": "#ffffff"
+		},
+		"updates": {
+			"fallbackToCacheTimeout": 0
+		},
+		"assetBundlePatterns": ["**/*"],
+		"ios": {
+			"supportsTablet": true,
+			"infoPlist": {
+				"UIBackgroundModes": ["location", "fetch"],
+				"CFBundleAllowMixedLocalizations": true
+			},
+			"bundleIdentifier": "com.vtp.VideoPlay"
+		},
+		"android": {
+			"package": "com.vtp.VideoPlay",
+			"permissions": [
+				"WRITE_EXTERNAL_STORAGE",
+				"LOCATION",
+				"NOTIFICATIONS",
+				"USER_FACING_NOTIFICATIONS",
+				"ACCESS_BACKGROUND_LOCATION",
+				"ACCESS_COARSE_LOCATION",
+				"ACCESS_FINE_LOCATION"
+			],
+			"versionCode": 1,
+			"googleServicesFile": "./google-services.json",
+			"useNextNotificationsApi": true
+		},
+		"description": "Dengue alert mobile application."
+	}
+}
